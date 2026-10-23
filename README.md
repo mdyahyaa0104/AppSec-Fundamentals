@@ -119,7 +119,7 @@ Download the current LTS installer from [nodejs.org](https://nodejs.org/). Follo
 If using Git:
 
 ```powershell
-git clone <REPOSITORY_URL>
+git clone https://github.com/mdyahyaa0104/AppSec-DevSecOps-Fundamentals.git
 cd <REPOSITORY_DIRECTORY>
 ```
 
@@ -135,10 +135,6 @@ This installs the dependencies declared in `package.json`, including Express and
 
 **4. Configure the environment**
 
-```powershell
-Copy-Item .env.example .env
-```
-
 Edit `.env` with your local configuration values.
 
 **5. Start the application**
@@ -147,12 +143,6 @@ Use the start command documented by the project. For example:
 
 ```powershell
 npm start
-```
-
-If a development script is configured, you may instead use:
-
-```powershell
-npm run dev
 ```
 
 ### macOS
@@ -166,7 +156,7 @@ Download the current LTS installer from [nodejs.org](https://nodejs.org/), or us
 **2. Open the project**
 
 ```bash
-git clone <REPOSITORY_URL>
+git clone https://github.com/mdyahyaa0104/AppSec-DevSecOps-Fundamentals.git
 cd <REPOSITORY_DIRECTORY>
 ```
 
@@ -229,7 +219,7 @@ sudo apt install -y build-essential python3
 **3. Open the project**
 
 ```bash
-git clone <REPOSITORY_URL>
+git clone https://github.com/mdyahyaa0104/AppSec-DevSecOps-Fundamentals.git
 cd <REPOSITORY_DIRECTORY>
 ```
 
@@ -259,20 +249,12 @@ Use `npm run dev` if that is the development script defined in `package.json`.
 
 ## Environment Configuration
 
-The repository provides `.env.example` as a template for local settings.
-
-Example:
-
-```dotenv
-PORT=3000
-NODE_ENV=development
-```
+The repository provides `.env` as a template for local settings.
 
 Copy this file to `.env` and adjust the values if needed.
 
 **Configuration rules:**
 
-- Commit `.env.example` to Git.
 - Keep `.env` in `.gitignore`.
 - Never commit passwords, API keys, access tokens, or other secrets.
 - Do not place sensitive information in the example file.
