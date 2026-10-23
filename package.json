@@ -1,0 +1,19 @@
+{
+  "name": "appsec-devsecops-fundamentals",
+  "version": "1.0.0",
+  "description": "The Official Repository for DePaul University's Security Daemon Event \"Application Security & DevSecOps Fundamentals\"",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "AppSec-DevSecOps-Fundamentals"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.3.0"
+  }
+}
