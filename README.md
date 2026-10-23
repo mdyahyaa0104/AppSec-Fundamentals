@@ -2,11 +2,6 @@
 ## Application Security & DevSecOps Fundamentals Lab
 
 
-A hands-on introduction to application security, secure software development, and DevSecOps practices.
-
-This repository supports a two-hour workshop for cybersecurity, networking, information systems, and software development students. Participants will explore common web application vulnerabilities, understand how they occur, and learn how to prevent them through secure coding and defensive testing.
-
-The lab is designed for mixed experience levels, from beginners to experienced penetration testers.
 
 > **Important:** All exercises are meant to run on your local machine using the tech stack that is preinstalled
 > update the stack as you please AT YOUR OWN RISK.
@@ -15,7 +10,6 @@ The lab is designed for mixed experience levels, from beginners to experienced p
 
 ## Table of Contents
 
-- [Learning Objectives](#learning-objectives)
 - [Technology Stack](#technology-stack)
 - [What We Will Cover](#what-we-will-cover)
 - [Prerequisites](#prerequisites)
@@ -30,16 +24,6 @@ The lab is designed for mixed experience levels, from beginners to experienced p
 
 ---
 
-## Learning Objectives
-
-By the end of this workshop, participants should be able to:
-
-- Recognize common web application vulnerabilities.
-- Explain how SQL injection and cross-site scripting (XSS) occur.
-- Understand API authentication, authorization, and input validation.
-- Apply safer database queries and access patterns.
-- Identify security weaknesses in application configuration.
-- Understand how security testing fits into a DevSecOps workflow.
 
 ## Technology Stack
 
