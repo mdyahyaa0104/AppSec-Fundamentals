@@ -21,6 +21,7 @@
 - [Running the Application](#running-the-application)
 - [Troubleshooting](#troubleshooting)
 - [Security and Responsible Use](#security-and-responsible-use)
+- [AI Disclaimer](#ai-disclaimer)
 
 ---
 
@@ -298,7 +299,7 @@ The purpose is to understand vulnerabilities, reproduce them safely in a control
 
 ---
 
-## AI Disclaimer 
+## AI Disclaimer
 
 This Lab and Event does not use AI except for the following cases: Planning & Organizing Information, and Professionalizing User and Operational Documents.
 
