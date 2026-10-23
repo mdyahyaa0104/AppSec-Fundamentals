@@ -17,7 +17,7 @@
     - [Windows](#windows)
     - [macOS](#macos)
     - [Linux](#linux)
-- [Environment Configuration](#environment-configuration)
+- [Environment Configuration](#env-configuration)
 - [Running the Application](#running-the-application)
 - [Troubleshooting](#troubleshooting)
 - [Security and Responsible Use](#security-and-responsible-use)
@@ -231,11 +231,7 @@ Use `npm run dev` if that is the development script defined in `package.json`.
 
 ---
 
-## Environment Configuration
-
-The repository provides `.env` as a template for local settings.
-
-Copy this file to `.env` and adjust the values if needed.
+## Env Configuration
 
 **Configuration rules:**
 
@@ -304,7 +300,7 @@ The purpose is to understand vulnerabilities, reproduce them safely in a control
 
 ## AI Disclaimer 
 
-This Lab and Event does not use AI except for the following cases: Planning & Organizing Information and Creating User Manuals.
+This Lab and Event does not use AI except for the following cases: Planning & Organizing Information, and Professionalizing User and Operational Documents.
 
 ---
 

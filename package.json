@@ -1,5 +1,5 @@
 {
-  "name": "appsec-devsecops-fundamentals",
+  "name": "application-security-fundamentals",
   "version": "1.0.0",
   "description": "The Official Repository for DePaul University's Security Daemon Event \"Application Security & DevSecOps Fundamentals\"",
   "main": "server.js",
