@@ -104,7 +104,7 @@ Download the current LTS installer from [nodejs.org](https://nodejs.org/). Follo
 If using Git:
 
 ```powershell
-git clone https://github.com/mdyahyaa0104/AppSec-DevSecOps-Fundamentals.git
+git clone https://github.com/mdyahyaa0104/AppSec-Fundamentals.git
 cd <REPOSITORY_DIRECTORY>
 ```
 
@@ -141,7 +141,7 @@ Download the current LTS installer from [nodejs.org](https://nodejs.org/), or us
 **2. Open the project**
 
 ```bash
-git clone https://github.com/mdyahyaa0104/AppSec-DevSecOps-Fundamentals.git
+git clone https://github.com/mdyahyaa0104/AppSec-Fundamentals.git
 cd <REPOSITORY_DIRECTORY>
 ```
 
@@ -204,7 +204,7 @@ sudo apt install -y build-essential python3
 **3. Open the project**
 
 ```bash
-git clone https://github.com/mdyahyaa0104/AppSec-DevSecOps-Fundamentals.git
+git clone https://github.com/mdyahyaa0104/AppSec-Fundamentals.git
 cd <REPOSITORY_DIRECTORY>
 ```
 
