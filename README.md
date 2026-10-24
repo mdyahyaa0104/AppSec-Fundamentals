@@ -54,7 +54,7 @@ Explore how untrusted input can become executable browser content and learn abou
 
 Discuss authentication versus authorization, improper access controls, request validation, and common API security weaknesses.
 
-### 4. Dbeditor Security
+### 4. Database Security
 
 Cover least privilege, safe query construction, database file protection, and secure handling of application data.
 
