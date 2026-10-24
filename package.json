@@ -1,19 +1,27 @@
 {
   "name": "application-security-fundamentals",
   "version": "1.0.0",
-  "description": "The Official Repository for DePaul University's Security Daemon Event \"Application Security & DevSecOps Fundamentals\"",
+  "description": "The Official Repository for DePaul University's Security Daemon Event \"Application Security Fundamentals\"",
   "main": "server.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "node src/server.js",
+    "db-edit": "node src/database/dbeditor.js",
+    "sql-inj": "node exercises/sql_injection/sql-injection.js",
+    "reset:sql-inj": "node src/db/reset/reset-sql-injection.js",
+    "reset:xss-inj": "node src/db/reset/reset-xss-injection.js",
+    "reset:api-sec": "node src/db/reset/reset-api-security.js",
+    "reset:db-sec": "node src/db/reset/reset-db-security.js"
   },
   "repository": {
     "type": "git",
-    "url": "AppSec-DevSecOps-Fundamentals"
+    "url": "AppSec-Fundamentals"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "better-sqlite3": "^13.0.3",
-    "express": "^5.3.0"
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "open": "^11.0.4"
   }
 }
