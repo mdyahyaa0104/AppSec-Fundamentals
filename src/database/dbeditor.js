@@ -1,16 +1,20 @@
 // Constants, Do not touch these
 const Database = require("better-sqlite3");
 
-const db = new Database("./sql-inj-database.db");
+/*
+    Replace everything after "./src/database/" with the database you want to edit
+    For Example: XSS database = ./src/database/xss-inj-database.db
+ */
+const db = new Database("./src/database/sql-inj-database.db");
 
 
 /*
     Everything after "db.exec('" and upto "')" is a SQL statement,
     You can add multiple db.exec statements to run multiple commands
-    After your changes are added, run "npm run dbexec" on the CLI
+    After your changes are added, run "npm run db-edit" on the CLI
     to execute the changes.
 
-    You can do both commands in the same db.exec command by seperating
+    You can do both commands in the same db.exec command by separating
     it using the ";" symbol, however it is easier to lose your way.
  */
 db.exec(`
