@@ -1,7 +1,7 @@
 // Constants, Do not touch these
 const Database = require("better-sqlite3");
 
-const db = new Database("src/database/sql-inj-database.db");
+const db = new Database("./sql-inj-database.db");
 
 
 /*

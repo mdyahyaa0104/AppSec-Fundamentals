@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/server.js",
     "db-edit": "node src/database/dbeditor.js",
-    "sql-inj": "node exercises/sql_injection/sql-injection.js",
+    "sql-inj": "node src/scripts/sql-injection.js",
     "reset:sql-inj": "node src/db/reset/reset-sql-injection.js",
     "reset:xss-inj": "node src/db/reset/reset-xss-injection.js",
     "reset:api-sec": "node src/db/reset/reset-api-security.js",
