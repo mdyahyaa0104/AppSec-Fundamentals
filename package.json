@@ -7,10 +7,11 @@
     "start": "node src/server.js",
     "db-edit": "node src/database/dbeditor.js",
     "sql-inj": "node src/scripts/sql-injection.js",
-    "reset:sql-inj": "node src/db/reset/reset-sql-injection.js",
-    "reset:xss-inj": "node src/db/reset/reset-xss-injection.js",
-    "reset:api-sec": "node src/db/reset/reset-api-security.js",
-    "reset:db-sec": "node src/db/reset/reset-db-security.js"
+    "xss-inj": "node src/scripts/xss-injection.js",
+    "api-sec": "node src/scripts/api-security.js",
+    "reset:sql-inj": "node src/database/reset/reset-sql-injection.js",
+    "reset:xss-inj": "node src/database/reset/reset-xss-injection.js",
+    "reset:api-sec": "node src/database/reset/reset-api-security.js"
   },
   "repository": {
     "type": "git",

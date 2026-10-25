@@ -29,12 +29,11 @@ CREATE TABLE IF NOT EXISTS users (
 db.exec(`
 INSERT INTO users (name, email, password) 
 VALUES 
-    ('Bob', 'bob@hotmail.com', 'BOB_PASS_HASH'),
-    ('Alice', 'alice@yahoo.com', 'ALICE_PASS_HASH');
+    ('newguy', 'newguy@proton.me', 'NEWGUY_PASS_HASH');
 `);
 
 // Console Log for Debugging
-console.log("DB Changes Executed Successfully");
+console.log("Database Changes Executed Successfully");
 
 // Do not touch this.
 module.exports = db;

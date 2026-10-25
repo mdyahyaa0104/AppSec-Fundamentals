@@ -4,7 +4,7 @@ const router = express.Router();
 
 const Database = require("better-sqlite3");
 const {response} = require("express");
-const db = new Database("src/database/sql-inj-database.db");
+const db = new Database("./src/database/sql-inj-database.db");
 
 
 // API Routes
